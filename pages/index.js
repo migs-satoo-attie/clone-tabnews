@@ -1,13 +1,6 @@
-import Script from 'next/script'
 
 function Home(){
-   return(
-    
-
-      
-
-    <Script src="script.js"></Script>
-   )
-}
+   return(<h1>é o Amor❤️</h1>)
+};
 
 export default Home;
