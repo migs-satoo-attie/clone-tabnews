@@ -1,2 +1,2 @@
-# clone-tabnews
-Recriando a plataforma tabnews( tabnews.com.br ) do Filipe Deschamps 
+# clone-tabnews 📎
+## Recriando a plataforma <a href="https://www.tabnews.com.br" target="_blank">Tabnews</a> do Filipe Deschamps 
