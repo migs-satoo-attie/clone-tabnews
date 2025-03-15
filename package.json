@@ -4,15 +4,20 @@
   "description": "Recriando a plataforma tabnews( tabnews.com.br ) do Filipe Deschamps",
   "main": "index.js",
   "dependencies": {
+    "next": "^15.2.2",
     "node": "^23.9.0",
     "node-bin-setup": "^1.1.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "^15.2.2"
+    "react-dom": "^19.0.0"
   },
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "lint:check": "prettier --check .",
+    "lint:fix": "prettier --write ."
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
 }
