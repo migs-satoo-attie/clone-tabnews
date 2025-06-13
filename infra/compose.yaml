@@ -5,7 +5,12 @@ services:
       - ../.env.development
     ports:
       - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
 
       # docker compose (--file or -f) infra/compose.yaml up -d
       # docker ps
       # docker down
+
+volumes:
+  postgres_data:
