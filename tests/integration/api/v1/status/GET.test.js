@@ -1,3 +1,9 @@
+import orquestrator from "tests/orquestrator.js";
+
+beforeAll(async () => {
+  await orquestrator.waitForAllServices();
+});
+
 // TESTE STATUS DA API
 test("GET - api status deve retornar 200", async () => {
   const response = await fetch("http://localhost:3000/api/v1/status");

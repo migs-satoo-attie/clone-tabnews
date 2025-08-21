@@ -14,5 +14,5 @@ function waitForPostgres() {
   }
 }
 
-process.stdout.write("\n \n ⭕ Aguardando Postgres aceitar conexões");
+process.stdout.write("\n \n ⭕ Aguardando Postgres aceitar conexões TCP/IP");
 waitForPostgres();
